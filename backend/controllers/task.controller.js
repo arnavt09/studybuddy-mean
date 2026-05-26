@@ -113,7 +113,6 @@ module.exports = {
     getTasks,
     createTask,
     getTaskById,
-    deleteTask,
     updateTask,
     deleteTask
 };
