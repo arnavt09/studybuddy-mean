@@ -1,0 +1,18 @@
+.detail-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 24px;
+  background-color: #f9fafb;
+}
+.detail-card h2 {
+  color: #2563eb;
+}
+a {
+  display: inline-block;
+  margin-top: 15px;
+  background-color: #2563eb;
+  color: white;
+  text-decoration: none;
+  padding: 10px 14px;
+  border-radius: 6px;
+}

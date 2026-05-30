@@ -1,0 +1,25 @@
+.task-form {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+input,
+textarea,
+select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+textarea {
+  min-height: 100px;
+}
+button {
+  margin-top: 10px;
+  background-color: #f59e0b;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}

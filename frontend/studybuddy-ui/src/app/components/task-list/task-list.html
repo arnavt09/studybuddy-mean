@@ -1,1 +1,17 @@
-<p>task-list works!</p>
+<h2>My Study Tasks</h2>
+<div class="top-actions">
+  <a routerLink="/add-task" class="add-button">Add New Task</a>
+</div>
+<div *ngIf="tasks.length === 0" class="empty">No tasks found. Add your first task.</div>
+<div class="task-card" *ngFor="let task of tasks">
+  <h3>{{ task.title }}</h3>
+  <p><strong>Subject:</strong>{{ task.subject }}</p>
+  <p><strong>Description:</strong> {{ task.description }}</p>
+  <p><strong>Priority:</strong> {{ task.priority }}</p>
+  <p><strong>Status:</strong>{{ task.status }}</p>
+  <div class="buttons">
+    <a [routerLink]="['/tasks', task._id]" class="view">View</a>
+    <a [routerLink]="['/edit-task', task._id]" class="edit">Edit</a>
+    <button (click)="deleteTask(task._id)">Delete</button>
+  </div>
+</div>

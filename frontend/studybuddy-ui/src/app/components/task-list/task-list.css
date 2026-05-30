@@ -1,0 +1,46 @@
+h2 {
+  margin-bottom: 20px;
+}
+.top-actions {
+  margin-bottom: 20px;
+}
+.add-button,
+.view,
+.edit {
+  text-decoration: none;
+  padding: 10px 14px;
+  border-radius: 6px;
+  color: white;
+  display: inline-block;
+}
+.add-button {
+  background-color: #2563eb;
+}
+.task-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 18px;
+  margin-bottom: 16px;
+  background-color: #f9fafb;
+}
+.task-card h3 {
+  margin-top: 0;
+  color: #2563eb;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+.view {
+  background-color: #16a34a;
+}
+.edit {
+  background-color: #f59e0b;
+}
+button {
+  background-color: #dc2626;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+}
